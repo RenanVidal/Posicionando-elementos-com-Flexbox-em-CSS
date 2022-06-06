@@ -1,0 +1,144 @@
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    height: 150px;
+
+}
+
+.flex-container2{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+
+.flex-container3{
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.default{
+    flex-flow: row nowrap;
+}
+
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.flex-item {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    background-color: aqua;
+    margin: 5px;
+    
+}
+
+.item2{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+
+    min-width: 100px;
+    line-height: 50px;
+}
+
+.item3{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background-color: red;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column li{
+    background-color: orange;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li{
+    background-color: purple;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse1{
+    flex-flow: row wrap-reverse;
+}
+
+.wrap1{
+    flex-flow: row wrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.r-nowrap{
+    flex-flow: row-reverse nowrap;
+}
+
+.r-wrap{
+    flex-flow: row-reverse wrap;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
