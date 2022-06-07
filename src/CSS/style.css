@@ -1,7 +1,3 @@
-body{
-    font-size: 24px;
-}
-
 .flex-container{
     margin: 0;
     padding: 0;
@@ -155,7 +151,7 @@ body{
     margin-bottom: 10px;  
 }
 
-.itens4{
+.item4{
     background-color: blueviolet;
     margin: 5px;
     text-align: center;
@@ -240,4 +236,21 @@ body{
  .central .item5 {
      flex: 0;
      padding: 20px;
+ }
+
+ .container3{
+     height: 400px;
+     max-width: 300px;
+     display: flex;
+     flex-wrap: wrap;
+     border: 1px solid black; 
+ }
+
+ .item6{
+    background-color: orange;
+    padding: 0px;
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 5px;
  }
