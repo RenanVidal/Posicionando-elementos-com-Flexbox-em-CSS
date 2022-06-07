@@ -84,3 +84,32 @@
     flex-basis: 100px;
 }
 
+.flex-container3{
+    display: flex;
+    border: 1px solid black;
+    max-width: 400px;
+    margin: 10px;
+}
+
+.item3{
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5PX;
+}
+
+.flex-1{
+    flex: 1;
+    /* grow = 1, shrink = 1, basis =0*/
+}
+
+.flex-2{
+    flex: 2;
+    /* grow = 2, shrink = 1, basis =0*/
+}
+
+.largura{
+    width: 200px;
+    /*min-width: 200px*/
+}
