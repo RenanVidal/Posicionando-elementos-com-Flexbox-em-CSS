@@ -149,3 +149,47 @@
 .direction{
     flex-direction: column;
 }
+
+.flex-container5{
+    max-width: 350px;
+    border: 1px solid black;
+    margin-bottom: 10 px;
+    display: flex;
+    /*align-items: center;*/
+}
+
+.item5{
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.baseline{
+    align-self: baseline;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.auto{
+    align-self: auto;
+}
+
+.align-container{
+    align-items:flex-end;
+}
