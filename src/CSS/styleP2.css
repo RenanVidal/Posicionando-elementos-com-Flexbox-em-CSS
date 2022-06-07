@@ -29,3 +29,58 @@
 .fg-3{
     flex-grow: 3;
 }
+
+.flex-container1{
+    max-width: 300px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item1{
+    background-color: coral;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.bauto{
+    flex-basis: auto;
+}
+
+.b-0{
+    flex-basis: 0;
+}
+
+.w100{
+    flex-basis: 100PX;
+}
+
+.flex-container2{
+    display: flex;
+    border: 1px solid black;
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.item2{
+    background-color: orangered;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.s-0{
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.s-2{
+    flex-shrink: 2;
+    flex-basis: 100px;
+}
+
+.s-3{
+    flex-shrink: 3;
+    flex-basis: 100px;
+}
+
